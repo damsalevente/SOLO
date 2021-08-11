@@ -101,6 +101,7 @@ def main():
         cfg.model, train_cfg=cfg.train_cfg, test_cfg=cfg.test_cfg)
 
     datasets = [build_dataset(cfg.data.train)]
+    print('classes: {}'.format(datasets[0].CLASSES))
     if len(cfg.workflow) == 2:
         datasets.append(build_dataset(cfg.data.val))
     if cfg.checkpoint_config is not None:
