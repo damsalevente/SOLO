@@ -1,7 +1,17 @@
 ## TODO
 
-nus dataset 
-https://www.nuscenes.org/nuimages
+- nus dataset 
+
+  https://www.nuscenes.org/nuimages
+
+- grape dataset 
+
+  https://github.com/thsant/wgisd
+
+- car parking lot dataset: 
+
+  https://lafi.github.io/LPN/
+
 # SOLO: Segmenting Objects by Locations
 
 This project hosts the code for implementing the SOLO algorithms for instance segmentation.
